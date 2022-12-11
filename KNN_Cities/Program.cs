@@ -13,7 +13,7 @@ using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
 
     foreach (var r in records)
     {
-        Console.WriteLine("{0} {1:N} {2:N}", r.Name , r.Lat, r.Lng);
+        Console.WriteLine("City {0} {1:N} {2:N}", r.Name , r.Lat, r.Lng);
     }
 }
 
